@@ -1,8 +1,8 @@
 # -*- coding: cp1254 -*-
 
-print "Character Counter Tool"
+print ("Character Counter Tool")
 
-a = raw_input("Input : ")
+a = input("Input : ")
 def uniq(input):
   output = []
   for x in input:
@@ -11,6 +11,6 @@ def uniq(input):
   return output
 c = uniq(a)
 for b in c:
-    print b , "=====>" , a.count(b) , "found."
+    print (b , "=====>" , a.count(b) , "found.")
 
 
